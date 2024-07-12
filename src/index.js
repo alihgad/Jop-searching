@@ -5,9 +5,8 @@ import companyRouter from './app/models/company/company.routes.js'
 import jopRouter from './app/models/jop/jop.routes.js'
 import appRouter from './app/models/application/application.routes.js'
 import cors from "cors"
-let cors = cors()
 
-app.use(cors)
+app.use(cors())
 const app = express()
 const port = process.env.PORT || 3000
 
